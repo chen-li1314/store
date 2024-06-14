@@ -1,0 +1,18 @@
+<template>
+    <div>
+      <h1>Home</h1>
+      <Counter />
+    </div>
+  </template>
+  
+  <script lang="ts">
+  import { defineComponent } from 'vue'
+  import Counter from '@/components/Counter.vue'
+  
+  export default defineComponent({
+    components: {
+      Counter
+    }
+  })
+  </script>
+  
